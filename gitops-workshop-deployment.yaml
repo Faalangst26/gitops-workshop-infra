@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: gitops-workshop-website
-        image: https://docker.io/berneg/gitops-workshop
+        image: berneg/gitops-workshop
         ports:
         - containerPort: 80
